@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(0.95);
+    border-color: yellow;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card p {
+    margin-bottom: 8px;
+}
